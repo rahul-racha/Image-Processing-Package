@@ -135,6 +135,10 @@ end
 
 % --- Executes on button press in pushbutton3.
 function pushbutton3_Callback(hObject, eventdata, handles)
-% hObject    handle to pushbutton3 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
+x = get(handles.edit1,'String'); %edit1 being Tag of ur edit box
+if isempty(x)
+    fprintf('Error: Enter Text first\n');
+else
+    y=imread(x);
+    imshow(y);
+end

@@ -1,19 +1,20 @@
-# Image Processing Package
+Image Processing Package
+========================
 This repository contains a standalone image package (prototype package) independent of the operating system. It implements 
 features coverering various aspects of image processing concepts and techniques. The package is developed using [MATLAB's 
 App Designer](https://www.mathworks.com/products/matlab/app-designer.html). 
 
-## Requirements 
+# Requirements 
 * MATLAB R2018a
 
-## Steps to run the package
+# Steps to run the package
 * Install MATLAB R2018a. Also works with higher versions as long as it is compatible.
 * Launch App Designer from MATLAB.
 * Open mainapp.mlapp
 
-## Features
+# Features
 The tool allows to open a local image, process it and save the processed image.
-### Convert images into different color models (CMYK, RGB, CMY, HSI)
+## Convert images into different color models (CMYK, RGB, CMY, HSI)
 - CMYK Model
 
   <img src="./resources/cmyk-model.png" height="300">
@@ -22,7 +23,7 @@ The tool allows to open a local image, process it and save the processed image.
   |--------------------------------------------------|--------------------------------------------------|--------------------------------------------------|
   |<img src="./resources/rgb-model.png" width="200"/>|<img src="./resources/cmy-model.png" width="200"/>|<img src="./resources/hsi-model.png" width="200"/>| 
 #
-### Enhance images quality (histogram processing)
+## Enhance images quality (histogram processing)
 - Brightness (0.1 - 0.9) and contrast (0.1 - 0.9) values can be set to control histogram processing.
 
 |                                                            |                                                            |
@@ -30,7 +31,7 @@ The tool allows to open a local image, process it and save the processed image.
 | <img src="./resources/hist-full.png" width="600"/>        | <img src="./resources/hist-half.png" width="250"/>         |
 
 #
-### Apply Transformations
+## Apply Transformations
 
 |                             Wavelet Transform              |       Fourier Transform                                    |
 |------------------------------------------------------------|------------------------------------------------------------|
@@ -41,7 +42,7 @@ The tool allows to open a local image, process it and save the processed image.
 |<img src="./resources/scale.png" width="200"/>|<img src="./resources/translate.png" width="200"/>|<img src="./resources/rotate.png" width="200"/>| 
 
 #
-### Add noise to images
+## Add noise to images
 - Non-repetitive noise
   - Gaussian, localvar, poisson, salt & pepper or speckle noise can be added to the image.
   - Mean, varince and noise density parameters are provided to tune the noise.
@@ -51,16 +52,25 @@ The tool allows to open a local image, process it and save the processed image.
 <img src="./resources/salt.png" width="500"/>
 
 #
-### Filter Images
+## Filter Images
 - Spatial Domain
   - Various kernel sizes are provided as options to apply spatial filter.
-  - Predefined 2-D filters:
-    
-    1. Laplacian filter with parameter 'alpha' [0 1] -> approximates the two-dimensional Laplacian operator.
-    2. Motion filter with parameters 'len' and 'theta' -> approximates the linear motion of a camera.
-    3. Prewitt filter -> Prewitt horizontal edge-emphasizing filter.
-    4. Sobel filter -> Sobel horizontal edge-emphasizing filter.
-    
-    
-    
+  - Predefined 2-D filters: Laplacian filter (alpha - [0,1]), Motion filter, Prewitt filter & Sobel filter.
   
+    <img src="./resources/Motion.png" width="600"/>
+    
+ - Frequency Domain
+   - Gaussian high pass and low pass filters
+   - Butterworth high pass and low pass filters
+   - Band pass and reject filters
+  
+  **Gaussian high pass**
+  
+ <img src="./resources/Gauss-high.png" width="600"/>
+ 
+| Gaussian low pass                                |  Butterworth high pass                           | Butterworth low pass |
+|--------------------------------------------------|--------------------------------------------------|----------------------|
+|<img src="./resources/gauss-low.png" width="200"/>|<img src="./resources/butter-high.png" width="200"/>|<img src="./resources/butter-low.png" width="200"/>| 
+    
+#
+## 

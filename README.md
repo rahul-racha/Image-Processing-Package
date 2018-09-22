@@ -71,6 +71,10 @@ The tool allows to open a local image, process it and save the processed image.
   | Gaussian low pass                                |  Butterworth high pass                             | Butterworth low pass|
   |--------------------------------------------------|----------------------------------------------------|-----------------------|
   |<img src="./resources/gauss-low.png" width="200"/>|<img src="./resources/butter-high.png" width="200"/>|<img src="./resources/butter-low.png" width="200"/>| 
+  
+  | Menu                                     |  Band pass                                       | Band reject      |
+  |----------------------------------------------------|--------------------------------------------------|------------------|
+  |<img src="./resources/band-screen.png" width="200"/>|<img src="./resources/band-pass.png" width="200"/>|<img src="./resources/band-reject.png" width="200"/>| 
     
 #
 ## 

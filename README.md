@@ -16,6 +16,7 @@ The tool allows to open a local image, process it and save the processed image.
 #
 ### Enhance images quality (histogram processing)
 - Brightness (0.1 - 0.9) and contrast (0.1 - 0.9) values can be set to control histogram processing.
+
 |                                                            |                                                            |
 |------------------------------------------------------------|------------------------------------------------------------|
-| <img src="./resources/hist-full.png" height="200"/>        | <img src="./resources/hist-half.png" width="250"/>         |
+| <img src="./resources/hist-full.png" width="600"/>        | <img src="./resources/hist-half.png" width="250"/>         |

@@ -31,9 +31,9 @@ The tool allows to open a local image, process it and save the processed image.
 
 #
 ### Apply Transformations
-#### Wavelet and Fourier Transform
-|                             Wavelet                        |       Fourier                                              |
+
+|                             Wavelet Transform              |       Fourier Transform                                    |
 |------------------------------------------------------------|------------------------------------------------------------|
 | <img src="./resources/wavelet.png" width="600"/>           | <img src="./resources/fourier.png" width="250"/>           |
 
-### Affine Transformations
+

@@ -14,6 +14,14 @@ App Designer](https://www.mathworks.com/products/matlab/app-designer.html).
 
 # Features
 The tool allows to open a local image, process it and save the processed image.
+- [Convert images into different color models (CMYK, RGB, CMY, HSI)](#convert-images-into-different-color-models-cmyk-rgb-cmy-hsi)
+- [Enhance images quality (histogram processing)](#enhance-images-quality-histogram-processing)
+- [Apply Transformations](#apply-transformations)
+- [Add noise to images](#add-noise-to-images)
+- [Filter Images](#filter-images)
+- [Fuse images](#fuse-images)
+
+# Screenshots
 ## Convert images into different color models (CMYK, RGB, CMY, HSI)
 - CMYK Model
 

@@ -45,11 +45,22 @@ The tool allows to open a local image, process it and save the processed image.
 - Non-repetitive noise
   - Gaussian, localvar, poisson, salt & pepper or speckle noise can be added to the image.
   - Mean, varince and noise density parameters are provided to tune the noise.
-
-<img src="./resources/non-repetitive.png" width="500"/>
-
 - Repetitive noise 
   - It can be added using the parameters sine angle and cycles.
   
-<img src="./resources/repetitive.png" width="500"/>  
+<img src="./resources/salt.png" width="500"/>
+
+#
+### Filter Images
+- Spatial Domain
+  - Various kernel sizes are provided as options to apply spatial filter.
+  - Predefined 2-D filters:
+    
+    1. Laplacian filter with parameter 'alpha' [0 1] -> approximates the two-dimensional Laplacian operator.
+    2. Motion filter with parameters 'len' and 'theta' -> approximates the linear motion of a camera.
+    3. Prewitt filter -> Prewitt horizontal edge-emphasizing filter.
+    4. Sobel filter -> Sobel horizontal edge-emphasizing filter.
+    
+    
+    
   

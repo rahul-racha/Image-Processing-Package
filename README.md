@@ -17,25 +17,25 @@ The tool allows to open a local image, process it and save the processed image.
 ## Convert images into different color models (CMYK, RGB, CMY, HSI)
 - CMYK Model
 
-  <img src="./resources/cmyk-model.png" height="300">
+  <img src="./resources/cmyk-model.png" width="500">
   
 - | RGB                                              |  CMY                                             | HSI                                              |
   |--------------------------------------------------|--------------------------------------------------|--------------------------------------------------|
-  |<img src="./resources/rgb-model.png" width="200"/>|<img src="./resources/cmy-model.png" width="200"/>|<img src="./resources/hsi-model.png" width="200"/>| 
+  |<img src="./resources/rgb-model.png" width="170"/>|<img src="./resources/cmy-model.png" width="170"/>|<img src="./resources/hsi-model.png" width="170"/>| 
 #
 ## Enhance images quality (histogram processing)
 - Brightness (0.1 - 0.9) and contrast (0.1 - 0.9) values can be set to control histogram processing.
 
 |                                                            |                                                            |
 |------------------------------------------------------------|------------------------------------------------------------|
-| <img src="./resources/hist-full.png" width="600"/>        | <img src="./resources/hist-half.png" width="250"/>         |
+| <img src="./resources/hist-full.png" width="600"/>        | <img src="./resources/hist-half.png" width="200"/>         |
 
 #
 ## Apply Transformations
 
 |                             Wavelet Transform              |       Fourier Transform                                    |
 |------------------------------------------------------------|------------------------------------------------------------|
-| <img src="./resources/wavelet.png" width="600"/>           | <img src="./resources/fourier.png" width="250"/>           |
+| <img src="./resources/wavelet.png" width="600"/>           | <img src="./resources/fourier.png" width="200"/>           |
 
 | Scale                                        |  Translate                                       | Rotate                |
 |----------------------------------------------|--------------------------------------------------|--------------------------------------------------|
@@ -49,7 +49,7 @@ The tool allows to open a local image, process it and save the processed image.
 - Repetitive noise 
   - It can be added using the parameters sine angle and cycles.
   
-<img src="./resources/salt.png" width="500"/>
+<img src="./resources/salt.png" width="400"/>
 
 #
 ## Filter Images
@@ -57,7 +57,7 @@ The tool allows to open a local image, process it and save the processed image.
   - Various kernel sizes are provided as options to apply spatial filter.
   - Predefined 2-D filters: Laplacian filter (alpha - [0,1]), Motion filter, Prewitt filter & Sobel filter.
   
-    <img src="./resources/Motion.png" width="600"/>
+  <img src="./resources/Motion.png" width="450"/>
     
  - Frequency Domain
    - Gaussian high pass and low pass filters
@@ -66,11 +66,11 @@ The tool allows to open a local image, process it and save the processed image.
   
   **Gaussian high pass**
   
- <img src="./resources/Gauss-high.png" width="600"/>
+  <img src="./resources/Guass-high.png" width="450"/>
  
-| Gaussian low pass                                |  Butterworth high pass                           | Butterworth low pass |
-|--------------------------------------------------|--------------------------------------------------|----------------------|
-|<img src="./resources/gauss-low.png" width="200"/>|<img src="./resources/butter-high.png" width="200"/>|<img src="./resources/butter-low.png" width="200"/>| 
+  | Gaussian low pass                                |  Butterworth high pass                             | Butterworth low pass|
+  |--------------------------------------------------|----------------------------------------------------|-----------------------|
+  |<img src="./resources/gauss-low.png" width="200"/>|<img src="./resources/butter-high.png" width="200"/>|<img src="./resources/butter-low.png" width="200"/>| 
     
 #
 ## 

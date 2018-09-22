@@ -77,4 +77,5 @@ The tool allows to open a local image, process it and save the processed image.
   |<img src="./resources/band-screen.png" width="200"/>|<img src="./resources/band-pass.png" width="200"/>|<img src="./resources/band-reject.png" width="200"/>| 
     
 #
-## 
+## Fuse images
+<img src="./resources/fusion.png" width="500"/>

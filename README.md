@@ -3,7 +3,15 @@ This repository contains a standalone image package (prototype package) independ
 features coverering various aspects of image processing concepts and techniques. The package is developed using [MATLAB's 
 App Designer](https://www.mathworks.com/products/matlab/app-designer.html). 
 
-# Features
+## Requirements 
+* MATLAB R2018a
+
+## Steps to run the package
+* Install MATLAB R2018a. Also works with higher versions as long as it is compatible.
+* Launch App Designer from MATLAB.
+* Open mainapp
+
+## Features
 The tool allows to open a local image, process it and save the processed image.
 ### Convert images into different color models (CMYK, RGB, CMY, HSI)
 - CMYK Model
@@ -20,3 +28,12 @@ The tool allows to open a local image, process it and save the processed image.
 |                                                            |                                                            |
 |------------------------------------------------------------|------------------------------------------------------------|
 | <img src="./resources/hist-full.png" width="600"/>        | <img src="./resources/hist-half.png" width="250"/>         |
+
+#
+### Apply Transformations
+#### Wavelet and Fourier Transform
+|                             Wavelet                        |       Fourier                                              |
+|------------------------------------------------------------|------------------------------------------------------------|
+| <img src="./resources/wavelet.png" width="600"/>           | <img src="./resources/fourier.png" width="250"/>           |
+
+### Affine Transformations

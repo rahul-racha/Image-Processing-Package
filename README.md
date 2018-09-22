@@ -9,7 +9,7 @@ App Designer](https://www.mathworks.com/products/matlab/app-designer.html).
 ## Steps to run the package
 * Install MATLAB R2018a. Also works with higher versions as long as it is compatible.
 * Launch App Designer from MATLAB.
-* Open mainapp
+* Open mainapp.mlapp
 
 ## Features
 The tool allows to open a local image, process it and save the processed image.
@@ -36,4 +36,9 @@ The tool allows to open a local image, process it and save the processed image.
 |------------------------------------------------------------|------------------------------------------------------------|
 | <img src="./resources/wavelet.png" width="600"/>           | <img src="./resources/fourier.png" width="250"/>           |
 
+| Scale                                        |  Translate                                       | Rotate                |
+|----------------------------------------------|--------------------------------------------------|--------------------------------------------------|
+|<img src="./resources/scale.png" width="200"/>|<img src="./resources/translate.png" width="200"/>|<img src="./resources/rotate.png" width="200"/>| 
 
+#
+### Add noise to images

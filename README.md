@@ -42,3 +42,14 @@ The tool allows to open a local image, process it and save the processed image.
 
 #
 ### Add noise to images
+- Non-repetitive noise
+  - Gaussian, localvar, poisson, salt & pepper or speckle noise can be added to the image.
+  - Mean, varince and noise density parameters are provided to tune the noise.
+
+<img src="./resources/non-repetitive.png" width="500"/>
+
+- Repetitive noise 
+  - It can be added using the parameters sine angle and cycles.
+  
+<img src="./resources/repetitive.png" width="500"/>  
+  
